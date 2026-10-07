@@ -1,0 +1,23 @@
+DC CUP 3RA EDICIÓN · V3
+========================
+
+1) Abre esta carpeta en Visual Studio Code.
+2) Abre Terminal.
+3) Ejecuta:
+
+   npm install
+   npm run dev
+
+4) Abre http://localhost:5173
+
+NUEVO PANEL MAESTRO
+-------------------
+- FORMATO Y FASES: cantidad de fases, equipos, grupos, clasificados, jornadas y salas.
+- PRODUCCIÓN / EN VIVO: moderadores, casters, Instagram, portada, link y música.
+- ADMINS DE PUNTAJES: crea usuarios limitados para los moderadores.
+- EQUIPOS Y LOGOS: mira todos los logos por grupo y descarga los PNG.
+- REGISTRAR RESULTADOS: las fases y salas aparecen automáticamente según el formato.
+
+IMPORTANTE:
+Antes de publicar en Internet cambia ADMIN_PASSWORD y JWT_SECRET en .env.
+Para publicación centralizada consulta DEPLOY_PUBLICO.md.
